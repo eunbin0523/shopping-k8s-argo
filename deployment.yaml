@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: shopping-container
-        image: asia.gcr.io/eunoia0523/springshoppingcart:v1 
+        image: asia.gcr.io/eunoia0523/springshoppingcart:1
         ports:
         - containerPort: 8080
         resources:
