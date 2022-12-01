@@ -9,6 +9,6 @@ metadata:
 spec:
   defaultBackend:
     service:
-      name: nodeport
-      port:
-        number: 8080
+       name: nodeport
+       port:
+         number: 8080
