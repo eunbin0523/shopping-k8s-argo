@@ -4,5 +4,9 @@ metadata:
   namespace: service
   name: my-backendconfig
 spec:
+  cdn:
+    enabled: true
+  sessionAffinity:
+    affinityType: "CLIENT_IP"
   securityPolicy:
     name: "shopping-policy"
